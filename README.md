@@ -2,8 +2,7 @@
 
 This repository provides the implementation of HD-Diff, a hierarchical-disentanglement-guided diffusion framework for multimodal brain tumor segmentation. The model uses four MRI modalities as input and integrates a modality-aware encoder, a dual-stream fusion module (DFM), boundary/core enhance conditioners, and a diffusion-based denoising network to predict three tumor subregions.
 
-![Framework](imgs/figure2.jpg)
-
+![Framework of HD-Diff](./figures/framework.png)
 ## Method Overview
 
 HD-Diff processes four BraTS2020 MRI modalities (T1, T1ce, T2, and FLAIR) with modality-specific encoder branches, then uses a dual-stream fusion module (DFM) to align cross-modal semantics and fuse multi-scale anatomical features.
