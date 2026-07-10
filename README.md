@@ -102,6 +102,8 @@ The demo is only a documentation helper. It does not train, test, or run medical
 
 ## Release Boundary
 
+This public release focuses on the model architecture and method-level organization. The complete data-processing, training, and evaluation pipeline is not included because it depends on dataset licenses, dataset-specific preprocessing protocols, local compute infrastructure, and experiment-management settings. Users should prepare public datasets through their official sources and adapt the data interface according to the corresponding usage terms.
+
 This public version intentionally does not include:
 
 - Executable dataset loading or preprocessing code.
@@ -117,3 +119,5 @@ Citation will be updated after the manuscript is available.
 ## Acknowledgement
 
 This project builds on ideas and components from MONAI, guided diffusion, UNet-based medical image segmentation, and the BraTS challenge ecosystem.
+
+
