@@ -2,7 +2,7 @@
 
 This repository provides a public source release of HD-Diff, a hierarchical-disentanglement-guided diffusion framework for multimodal brain tumor segmentation. The released code includes the main model definition, core network modules, diffusion utilities, and non-executable placeholders for the dataset and training pipeline. Executable dataset loading, complete training/testing scripts, checkpoints, and experiment-specific runtime files are not included.
 
-![Framework](imgs/figure2.jpg)
+
 
 ## Method Overview
 
